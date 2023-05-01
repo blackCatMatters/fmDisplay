@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title> -->
+
+</head>
+<body>
+  <div>
+    Improve your front-end skills by building projects. Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Aud123"  target="_blank">BCM</a>.
+  </div>
+  <div class="container">
+    <div class="box">
+      <div class="image">
+        <img src="assets/image-qr-code.png">
+      </div>
+      <div class="text">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to  the next level</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
+
+<style>@font-face {
+  font-family: 'Helvetica';
+  src: url('fonts/Helvetica.ttf');
+  src: url('fonts/Helvetica-Bold.ttf');
+  font-family: 'Comics';
+  src: url('fonts/Helvetica.ttf');
+  src: url('fonts/Helvetica-Bold.ttf');
+}
+
+#format{
+  text-align: center;
+  color: white;
+  font-family: 'Helvetica Neue'
+}
+
+body {
+  min-height: 100vh;
+  height: 100vh;
+  background-color: #d6e3ffff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  height: 25rem;
+}
+
+.box {
+  text-align: center;
+  width: 15rem;
+  margin: 10px;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+  border-radius: 10px;
+}
+
+.text {
+  text-align: center;
+  margin: 20px;
+  min-height: 50px;
+}
+
+h1 {
+  font-size: 16px;
+  font-family: "Helvetica";
+}
+
+p {
+  font-size: 12px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: 	rgb(152,152,152)
+}
+
+@media only screen and (max-width:749px){
+img{
+width:100%;
+}
+}</style>
